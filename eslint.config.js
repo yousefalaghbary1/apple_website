@@ -19,6 +19,8 @@ export default [
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
+      '@react-three' : true,
+      'react-three': reactThree,
     },
     rules: {
       ...js.configs.recommended.rules,
